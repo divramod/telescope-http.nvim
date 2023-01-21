@@ -21,7 +21,9 @@ return function(_, http_opts)
                     local selection = state.get_selected_entry()
                     local link = codes[selection[1]]
 
-                    vim.fn.jobstart(http_opts.open_url:format(link))
+                    -- vim.fn.jobstart(http_opts.open_url:format(link))
+                    os.execute("open -a 'Google Chrome' " .. link)
+                    -- print(link)
                 end)
                 return true
             end,

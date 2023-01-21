@@ -1,4 +1,8 @@
 return {
+    ['100 Continue'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100',
+    ['101 Switching Protocols'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101',
+    ['103 Early Hints'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103',
+    ['200 OK'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200',
     ['201 Created'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201',
     ['202 Accepted'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202',
     ['203 Non-Authoritative Information'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203',
@@ -30,6 +34,7 @@ return {
     ['415 Unsupported Media Type'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/415',
     ['416 Range Not Satisfiable'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/416',
     ['417 Expectation Failed'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/417',
+    ['418 I\'m a teapot'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418',
     ['422 Unprocessable Entity'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422',
     ['425 Too Early'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/425',
     ['426 Upgrade Required'] = 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/426',
